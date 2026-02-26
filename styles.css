@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+
+}
+
+.container-buttons {
+   margin: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px; 
+}
+
+button{
+background-color: #79cb15;
+border: none;
+border-radius: 5px;
+color: #000000;
+cursor: pointer;
+font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+li {
+    border: 2px solid #8133ff;
+    border-radius: 5px;
+    padding: 5px;
+     transition: 0.3s ease;
+}
+
+li:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    aspect-ratio: 16 / 9;   /* mantém proporção bonita */
+    object-fit: cover;      /* corta sem distorcer */
+    border-radius: 5px;
+}
+
+p{
+    color: #ffffff;
+}
+
+.item-price {
+    font-weight: bold;
+    color: #79cb15;
+}
+
+.title {
+    text-align: center;
+    color: #79cb15;
+    margin-top: 20px;
+}
+
+#search {
+    display: block;
+    margin: 20px auto;
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+
+
